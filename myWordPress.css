@@ -1,0 +1,31 @@
+div#myWordPress
+{
+	width: auto;
+	height: 30px;
+    background-color: #4d4d4d;
+}
+#firstletter{
+	font-family: "Times New Roman Georgia";
+	font-size: 25px;
+	padding-top: 4%;
+	color:#007399;
+	font-weight: bold;
+}
+#secondletter{
+	font-family: "Times New Roman Georgia";
+	font-size: 25px;
+	padding-top: 4%;
+	color: #4d4d4d;
+	font-weight: bold;
+}
+#firstletter:first-letter{
+	font-size: 150%;
+    color: #007399;
+}
+#secondletter:first-letter{
+	font-size: 150%;
+    color: #4D4D4D;
+}
+p{
+	margin-left: 20px;
+}

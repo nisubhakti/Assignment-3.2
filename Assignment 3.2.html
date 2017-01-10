@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+		<!-- This is the Example of CSS styles-->
+		<title>WordPress Theme</title>
+		<!-- Adding External Style sheet in the Head section-->
+		<link rel="stylesheet" type="text/css" href="myWordPress.css">
+		<!-- Embedded style sheet for Input textbox and table-->
+		<style>
+			input[type=text] {
+				padding-top: 12px;
+				box-sizing: border-box;
+			}
+			table {
+				margin-left: 20px;
+				width: 275px;
+				table-layout: fixed;
+			}
+		</style>
+	</head>
+
+	<!-- All table having same property has been given same font style and border-->
+	<body>
+		<!-- Inline Style Example -->
+		<div id="myWordPress"> </div>
+		<br />
+		<table>
+			<tr>
+				<td align="left" width="35px"><img src="logo1.png" height='50px' width="60px"></td>
+				<td id="firstletter" align="right"><b>WORD</b></td>
+				<td id="secondletter" align="left"><b>PRESS</b></td>
+			</tr>
+		</table>
+		<p>
+			Upload a theme
+			<button>
+				Browse...
+			</button>
+			No file selected.
+			<br />
+			<br />
+			Or search in wordpress
+			<input type="text" name="Search">
+			<img id="img" src="logo2.png" height='25px' width="30px">
+		</p>
+	</body>
+
+</html>
+
